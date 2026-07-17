@@ -125,7 +125,7 @@ footer{text-align:center;padding:20px;font-size:12px;color:#9ca3af}
         </div>
 
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200/3b82f6/ffffff?text=MOVIE+MATE" alt="Movie Mate">
+            <img src="Screenshot_20260717-214130.png" alt="Movie Mate">
             <div class="project-content">
                 <h3>Movie Mate</h3>
                 <p>Movie discovery app. Browse, search, and view movie ratings.</p>
