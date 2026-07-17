@@ -116,7 +116,7 @@ footer{text-align:center;padding:20px;font-size:12px;color:#9ca3af}
         <h2>🚀 My Projects</h2>
         
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200/1e3a8a/ffffff?text=CLOUT+SMS" alt="CLOUT SMS">
+            <img src=Screenshot_20260717-213721.png " alt="CLOUT SMS">
             <div class="project-content">
                 <h3>CLOUT SMS</h3>
                 <p>School management system. Students, attendance, report cards, CSV export.</p>
