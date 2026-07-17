@@ -134,7 +134,7 @@ footer{text-align:center;padding:20px;font-size:12px;color:#9ca3af}
         </div>
 
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200/10b981/ffffff?text=BRAIN+MASTER" alt="Brain Master">
+            <img src="Screenshot_20260717-213842.png" alt="Brain Master">
             <div class="project-content">
                 <h3>Brain-Master</h3>
                 <p>Quiz game with timer, lives, and Ghana GK questions.</p>
