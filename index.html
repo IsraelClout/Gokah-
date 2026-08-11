@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gokah AI - Text to Voice & Voice to Text</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-gradient"></div>
+
+<div class="glass-container">
+  <header>
+    <h1>🎙️ Gokah</h1>
+    <p>Talk or Type in any Ghanaian Language</p>
+  </header>
+
+  <div class="controls">
+    <select id="language" class="glass-select">
+      <option value="en">English</option>
+      <option value="ak">Twi - Akan</option>
+      <option value="ga">Ga</option>
+      <option value="ee">Ewe</option>
+      <option value="ha">Hausa</option>
+    </select>
+  </div>
+
+  <div class="input-section">
+    <textarea id="textInput" class="glass-textarea" placeholder="Type here or use mic..."></textarea>
+    <button id="sendBtn" class="glass-btn">Send</button>
+  </div>
+
+  <div class="mic-section">
+    <button id="micBtn" class="glass-mic">
+      <div class="mic-ring"></div>
+      <span class="mic-icon">🎤</span>
+    </button>
+    <p id="status">Tap to Talk</p>
+  </div>
+
+  <div id="chatBox" class="glass-chat">
+    <div class="chat-header">Conversation</div>
+    <div id="chatLog"></div>
+  </div>
+</div>
+
+<audio id="audioPlayer" hidden></audio>
+
+<script src="app.js"></script>
+</body>
+</html>
